@@ -1677,3 +1677,6 @@ h2.resp-accordion {
     transition: color 0.2s ease-in-out;
     color: #fff!important;
 }
+.backstretch{
+    width: 100%!important;
+}
