@@ -466,7 +466,13 @@
         margin-bottom: 20px;
     }
 }
+@media screen and (min-width: 1025px) {
+    .cv-page-content {
+        margin-top: 2rem;
+    }
 
+    
+}
 @media only screen and (max-height: 34em) {
     #cv-main-menu ul li a:before {
         font-size: 20px;
@@ -475,8 +481,8 @@
         font-size: 30px;
     }
     #cv-main-menu ul li a {
-        height: 3.5em;
-        line-height: 3.5em;
+        height: 2.5em;
+        line-height: 2.5em;
     }
     #home-title,
     #home-slide-title {

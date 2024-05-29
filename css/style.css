@@ -321,7 +321,7 @@ form .cv-button {
 .floor {
     z-index: 1;
     padding-left: 50%;
-    padding-left: calc(50% + 2.5em);
+    /* padding-left: calc(50% + 2.5em); */
     -webkit-overflow-scrolling: touch;
     padding-top: 1.7rem;
 }
