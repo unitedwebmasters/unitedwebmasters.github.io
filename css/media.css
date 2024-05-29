@@ -181,7 +181,16 @@
         width: calc(100% - 5em);
     }
 }
-
+@media only screen and (max-width: 834px) {
+    .cv-icon-block {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1422px) {
+    .cv-icon-block {
+        width: 100%;
+    }
+}
 @media only screen and (max-width:640px) {
     #home-title h1 span,
     #home-slide-title span {
@@ -208,9 +217,7 @@
         width: 100%;
         float: left;
     }
-    .cv-icon-block {
-        width: 100%;
-    }
+    
     ul.resp-tabs-list {
         display: none;
     }
