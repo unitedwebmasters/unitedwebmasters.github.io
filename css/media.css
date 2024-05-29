@@ -112,7 +112,7 @@
 @media only screen and (max-width: 1024px) {
     #home-title,
     #home-slide-title {
-        top: 40px;
+        top: 7em;
     }
     #cv-home-social-bar ul li a {
         height: 4em;

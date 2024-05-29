@@ -323,7 +323,7 @@ form .cv-button {
     padding-left: 50%;
     /* padding-left: calc(50% + 2.5em); */
     -webkit-overflow-scrolling: touch;
-    padding-top: 1.7rem;
+    /* padding-top: 1.7rem; */
     
 }
 .cv-page-content {
@@ -354,9 +354,10 @@ form .cv-button {
 }
 /* ================= MAIN MENU ================== */
 #cv-menu {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
+    height: 5em;
     /* height: 100%; */
     z-index: 999;
 }
@@ -435,7 +436,7 @@ form .cv-button {
     position: fixed;
     top: 0;
     height: 100%;
-    left: 5em;
+    left: 0;
     z-index: 99;
     width: 480px;
     max-width: calc(100% - 5em);
@@ -470,11 +471,12 @@ form .cv-button {
 .cv-sidebar-title h5 {
     line-height:3.5em;
     margin:0px;
-    padding:0px 40px;
+    padding:0px 95px;
 }
 .cv-sidebar-title {
     height:5em;
     position: relative;
+    overflow: hidden;
 }
 .cv-sidebar-title:before {
     top: 100%;
@@ -654,7 +656,7 @@ form .cv-button {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    top: 3.3rem;
+    /* top: 3.3rem; */
 }
 #home-title, #home-slide-title {
     position: absolute;
@@ -1684,3 +1686,13 @@ h2.resp-accordion {
 .backstretch{
     width: 100%!important;
 }
+
+.links-to-floor-li .fa {
+    font-size: 25px;
+    color: #fff;
+    margin-right: 1rem;
+}
+.cv-active a .fa{
+    color: #ff1a28;
+}
+
