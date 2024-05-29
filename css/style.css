@@ -324,7 +324,7 @@ form .cv-button {
     /* padding-left: calc(50% + 2.5em); */
     -webkit-overflow-scrolling: touch;
     padding-top: 1.7rem;
-    overflow: hidden!important;
+    
 }
 .cv-page-content {
     position: relative;
